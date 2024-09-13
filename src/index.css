@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* style guide for type */
+:root {
+
+  /* Typemaster landing page*/
+  font-family: 'Barlow', sans-serif;
+
+  --grey-overall: #7B8BAD;
+  --dark-heading: #162441;
+  --orange: #F26818;
+
+  /* Single page design portfolio */
+  --bg-pastel-color: #FFF7F0;
+  --button-color: #EB7565;
+  --black-color: #030303;
+  --skill-1: #755CDE;
+  --skill-2: #F6A560;
+  --skill-3: #F39E9E;
+  --skill-4: var(--button-color);
+  --skill-5: #61C4B7;
+  --skill-6: #552049;
+
+  --font-14: 14px;
+  --font-16: 16px;
+  --font-24: 24px;
+  --font-26: 26px;
+  --font-32: 32px;
+  --font-48: 48px;
+}
+
+body {
+  color: var(--grey-overall);
+}
+
+/* github search light and dark mode */
+
+.light {
+  background: #F6F8FF;
+}
+
+.dark {
+  background: #141D2F;
+}
+
+.dark .search-form, .dark .search-form input,
+.dark .user-card {
+  background: #1E2A47;
+}
+
